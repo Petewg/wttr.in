@@ -1,11 +1,12 @@
 
 One line output format
 --
+example:\
+`curl -s wttr.in/Athens?format="%10%l%11%20%t%20:%20%w%20:%20%p%20:%20%s%20:%20%h%20:%20%C%20:%20%M%20:%20%P"`
+output:\
+`►Athens◄ +33°C : ↓19 km/h : 0.0mm : 2019-06-15 21:23:35+02:00 : 32% : Partly cloudy : 12 : 1011hPa`
 
-curl -s wttr.in/Athens?format="%10%l%11%20%t%20:%20%w%20:%20%p%20:%20%s%20:%20%h%20:%20%C%20:%20%M%20:%20%P"
-
-►Athens◄ +33°C : ↓19 km/h : 0.0mm : 2019-06-15 21:23:35+02:00 : 32% : Partly cloudy : 12 : 1011hPa
-
+```
 %c -->   weather condition (one/two symbols)      -   `¤`
 %C -->   weather condition (descriptive text)     -   `Partly cloudy`
 %l -->   location                                 -   `Athens`
@@ -16,5 +17,5 @@ curl -s wttr.in/Athens?format="%10%l%11%20%t%20:%20%w%20:%20%p%20:%20%s%20:%20%h
 %h -->   percentage humidity (*)                  -   `NNN%`
 %M -->   displays constantly the number twelve    -   `12`
 %P -->   atmospheric pressure in hectopascal      - `1011hPa`
-
+```
 
