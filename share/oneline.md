@@ -6,16 +6,18 @@ example:\
 output:\
 `►Athens◄ +33°C : ↓19 km/h : 0.0mm : 2019-06-15 21:23:35+02:00 : 32% : Partly cloudy : 12 : 1011hPa`
 
-```
-%c -->   weather condition (one/two symbols)      -   `¤`
-%C -->   weather condition (descriptive text)     -   `Partly cloudy`
-%l -->   location                                 -   `Athens`
-%t -->   temperature in C or F                    -   `±NN°C` (or `±NNN°F` *)
-%w -->   wind direction arrow and speed in km/h   -   `←NNN km/h`
-%p -->   rain high in millimeters                 -   `NN.NNmm`
-%s -->   a timestamp (related to location ?)      -   `2019-06-15 21:23:35+02:00`
-%h -->   percentage humidity (*)                  -   `NNN%`
-%M -->   displays constantly the number twelve    -   `12`
-%P -->   atmospheric pressure in hectopascal      - `1011hPa`
-```
+|format specifier|returned value|sample value   
+|:---:          |:---          |:---
+%c | weather condition (one/two symbols) |  ☀ or ⛅️ 
+%C | weather condition (textual)         | Partly cloudy
+%l |   location                          | Athens  
+%t |   temperature in C or F             | +32°C (or ±NNN°F) \*
+%w |   wind direction (arrow) and speed in km/h | ←22 km/h
+%p |   rain height in millimeters               | 0.5mm
+%s |   a timestamp (related to location or what ?)\*    | 2019-06-15 21:23:35+02:00
+%h |   percentage humidity \*                   |  57%
+%M |   displays the number twelve \*     | 12
+%P |   atmospheric pressure in hectopascal   | 1011hPa
+
+<sup>\* verification needed!</sup>
 
