@@ -9,15 +9,15 @@ output:\
 |format specifier|expected return value|sample output   
 |:---:          |:---          |:---
 %c | weather condition (one/two symbols) |  ☀ or ⛅️ 
-%C | weather condition (textual)         | Partly cloudy
-%l |   location                          | Athens  
-%t |   temperature in C or F             | +32°C (or ±NNN°F) \*
-%w |   wind direction (arrow) and speed in km/h | ←22 km/h
-%p |   rain height in millimeters               | 0.5mm
-%s |   a timestamp (related to location or what ?)\*    | 2019-06-15 21:23:35+02:00
-%h |   percentage humidity \*                   |  57%
-%M |   prints an undetermined (yet) number \*     | 12
-%P |   atmospheric pressure in hectopascal   | 1011hPa
+%C | weather condition (textual)         | <samp>Partly cloudy</samp>
+%l |   location                          | <samp>Athens</samp>  
+%t |   temperature in C or F             | <samp>+32°C</samp> (or ±NNN°F) \*
+%w |   wind direction (arrow) and speed in km/h | <samp>←22 km/h</samp>
+%p |   rain height in millimeters               | <samp>0.5mm</samp>
+%s |   a timestamp related to location (or something ?)\*    | <samp>2019-06-15 21:23:35+02:00</samp>
+%h |   percentage humidity \*                   |  <samp>57%</samp>
+%M |   prints an undetermined (yet) number \*     | <samp>12</samp>
+%P |   atmospheric pressure in hectopascal   | <samp>1011hPa</samp>
 
 <sup>\* verification and/or clarifications needed!</sup>
 
