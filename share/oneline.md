@@ -7,17 +7,17 @@ output:\
 `►Athens◄ +33°C : ↓19 km/h : 0.0mm : 2019-06-15 21:23:35+02:00 : 32% : Partly cloudy : 12 : 1011hPa`
 
 |format specifier|expected return value|sample output   
-|:---:          |:---          |:---
-%c | weather condition (one/two symbols) |  ☀ or ⛅️ 
-%C | weather condition (textual)         | <samp>Partly cloudy</samp>
-%l |   location                          | <samp>Athens</samp>  
-%t |   temperature in C or F             | <samp>+32°C</samp> (or ±NNN°F) \*
-%w |   wind direction (arrow) and speed in km/h | <samp>←22 km/h</samp>
-%p |   rain height in millimeters               | <samp>0.5mm</samp>
-%s |   a timestamp related to location (or something ?)\*    | <samp>2019-06-15 21:23:35+02:00</samp>
-%h |   percentage humidity \*                   |  <samp>57%</samp>
-%M |   prints an undetermined (yet) number \*     | <samp>12</samp>
-%P |   atmospheric pressure in hectopascal   | <samp>1011hPa</samp>
+|:--------------:|:--------------------|:------------
+<b>%c</b> | weather condition (one/two symbols) |  ☀ or ⛅️ 
+<b>%C</b> | weather condition (textual)         | <samp>Partly cloudy</samp>
+<b>%l</b> | location                          | <samp>Athens</samp>  
+<b>%t</b> | temperature in Celsius or Fahrenheit (signed)             | <samp>+32°C</samp> (or <samp>±NNN°F</samp>) \*
+<b>%w</b> | wind direction (arrow) and speed in km/h | <samp>←22 km/h</samp>
+<b>%p</b> | rain height in millimeters               | <samp>0.5mm</samp>
+<b>%s</b> | a timestamp related to location (or something ?)\*    | <samp>2019-06-15 21:23:35+02:00</samp>
+<b>%h</b> | percentage humidity \*                   |  <samp>57%</samp>
+<b>%M</b> | prints an undetermined (yet) number \*     | <samp>12</samp>
+<b>%P</b> | atmospheric pressure in hectopascal   | <samp>1011hPa</samp>
 
 <sup>\* verification and/or clarifications needed!</sup>
 
