@@ -6,7 +6,7 @@ example:\
 output:\
 `►Athens◄ +33°C : ↓19 km/h : 0.0mm : 2019-06-15 21:23:35+02:00 : 32% : Partly cloudy : 12 : 1011hPa`
 
-|format specifier|returned value|sample value   
+|format specifier|returned value|sample output   
 |:---:          |:---          |:---
 %c | weather condition (one/two symbols) |  ☀ or ⛅️ 
 %C | weather condition (textual)         | Partly cloudy
@@ -19,5 +19,5 @@ output:\
 %M |   displays the number twelve \*     | 12
 %P |   atmospheric pressure in hectopascal   | 1011hPa
 
-<sup>\* verification needed!</sup>
+<sup>\* verification and/or clarifications needed!</sup>
 
