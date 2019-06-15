@@ -8,16 +8,17 @@ output:\
 
 |format specifier|expected return value|sample output   
 |:--------------:|:--------------------|:------------
-<b>%c</b> | weather condition (one/two symbols) |  ☀ or ⛅️ 
+<b>%c</b> | weather condition (symbols) |  ☀ or ⛅️ 
 <b>%C</b> | weather condition (textual)         | <samp>Partly cloudy</samp>
 <b>%l</b> | location                          | <samp>Athens</samp>  
-<b>%t</b> | temperature in Celsius or Fahrenheit (signed)             | <samp>+32°C</samp> (or <samp>±NNN°F</samp>) \*
+<b>%t</b> | temperature in Celsius or Fahrenheit (signed) | <samp>+32°C</samp> (or <samp>±NNN°F</samp> \*)
 <b>%w</b> | wind direction (arrow) and speed in km/h | <samp>←22 km/h</samp>
 <b>%p</b> | rain height in millimeters               | <samp>0.5mm</samp>
-<b>%s</b> | a timestamp related to location (or something ?)\*    | <samp>2019-06-15 21:23:35+02:00</samp>
-<b>%h</b> | percentage humidity \*                   |  <samp>57%</samp>
-<b>%M</b> | prints an undetermined (yet) number \*     | <samp>12</samp>
+<b>%h</b> | humidity percentage                      |  <samp>57%</samp>
+<b>%M</b> | Day number of Moon phase                 | <samp>12</samp>
+<b>%m</b> | Moon phase (symbols)                      | 🌖 or 🌓
 <b>%P</b> | atmospheric pressure in hectopascal   | <samp>1011hPa</samp>
+<b>%s</b> | a timestamp related to location (or something ?)\*    | <samp>2019-06-15 21:23:35+02:00</samp>
 
 <sup>\* verification and/or clarifications needed!</sup>
 
